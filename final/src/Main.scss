@@ -1,0 +1,43 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("http://fonts.cdnfonts.com/css/gotham");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1180px;
+  margin: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container-fuild {
+  max-width: 1550px;
+  margin: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+body {
+  background-color: #f7f7f7;
+  &::after {
+    box-sizing: border-box;
+  }
+  &::before {
+    box-sizing: border-box;
+  }
+}
+.main-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+}
+.mr-top {
+  margin-top: 80px;
+}
+.shopping-Cart {
+  transition: 0.4s ease;
+}

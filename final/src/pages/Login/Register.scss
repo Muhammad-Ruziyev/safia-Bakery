@@ -1,0 +1,42 @@
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-family: sans-serif;
+    padding-top: 40px;
+  }
+  input {
+    width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(52, 52, 52);
+  }
+  h3 {
+    color: #dc3545;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  .register {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 10px 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .sign-btn {
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 6px;
+    margin: 20px 0;
+  }
+}

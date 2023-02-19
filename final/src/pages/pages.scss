@@ -1,0 +1,696 @@
+//   Home scss
+
+.Main-page-titles {
+  padding-top: 30px;
+  margin-top: 70px;
+  @media only screen and (max-width: 1000px) {
+    margin-top: 50px;
+  }
+  .Main-title {
+    font-family: "Amatic SC", cursive;
+    color: #3f3f3f;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+}
+.category-buttons {
+  padding-top: 40px;
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      margin-bottom: 20px;
+      width: 265px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      a {
+        width: 265px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+    .black-btn {
+      background-color: #fff;
+      color: rgba(0, 0, 0, 0.6);
+      background-color: transparent;
+      border-radius: 20px;
+    }
+  }
+  .button-animation {
+    transition: 0.6s ease;
+  }
+  .white-btn {
+    background-color: #3f3f3f;
+    color: #fff;
+    border-radius: 20px;
+  }
+  .buttons-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 1200px) {
+      display: block;
+    }
+    padding-bottom: 20px;
+  }
+}
+.all-products {
+  padding-bottom: 60px;
+  max-width: 1130px;
+  margin: auto;
+}
+.bg {
+  background: url(https://safiabakery.uz/img/section-bg.jpg) no-repeat center
+    center/cover;
+  h2 {
+    color: #3f3f3f;
+    font-size: 60px;
+    font-family: "Amatic SC", cursive;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    @media only screen and (max-width: 770px) {
+      font-size: 40px;
+    }
+  }
+  .advantages {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    h3 {
+      font-size: 17px;
+      text-align: center;
+      font-weight: normal;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: #3f3f3f;
+      line-height: 1.2;
+      @media only screen and (max-width: 770px) {
+        font-size: 1px;
+      }
+    }
+    p {
+      font-size: 17px;
+      color: #3f3f3f;
+      padding: 0 120px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      max-width: 1110px;
+      @media only screen and (max-width: 770px) {
+        font-size: 16px;
+        width: 600px;
+        padding: 0 20px;
+      }
+      @media only screen and (max-width: 630px) {
+        font-size: 16px;
+        max-width: 340px;
+        padding: 0;
+      }
+
+      @media only screen and (max-width: 340px) {
+        max-width: 270px;
+      }
+    }
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 0;
+    @media only screen and (max-width: 767px) {
+      display: block;
+    }
+    h2 {
+      @media only screen and (max-width: 540px) {
+        font-size: 35px;
+        text-align: center;
+      }
+    }
+    p {
+      font-size: 17px;
+      color: #3f3f3f;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      max-width: 670px;
+      @media only screen and (max-width: 770px) {
+        font-size: 16px;
+        max-width: 600px;
+      }
+      @media only screen and (max-width: 630px) {
+        font-size: 16px;
+        max-width: 600px;
+      }
+      @media only screen and (max-width: 540px) {
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+    .about-title {
+      padding: 0 15px;
+    }
+    .img-center {
+      text-align: center;
+    }
+    img {
+      width: 270px;
+      margin-left: 50px;
+      @media only screen and (max-width: 540px) {
+        display: none;
+      }
+    }
+  }
+  .about-button {
+    display: flex;
+    justify-content: center;
+    button {
+      background-color: #ffffff;
+      padding: 0.8rem 2rem 0.6rem;
+      font-weight: 500;
+      color: #3f3f3f;
+      font-size: 0.9rem;
+      border-radius: 20px;
+      box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+      transition: all 0.3s;
+      border: 1px transparent;
+      text-align: center;
+      transition: 0.4s ease;
+      margin-bottom: 50px;
+      &:hover {
+        background-color: #f7f8f9;
+        transition: 0.4s ease;
+      }
+      a {
+        color: #212529;
+        text-decoration: none;
+      }
+      &::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 0.8em;
+        vertical-align: -0.15em;
+        content: "";
+        border-top: 0.5em solid transparent;
+        border-bottom: 0.5em solid transparent;
+        border-left: 0.5em solid;
+      }
+    }
+  }
+}
+.have {
+  margin: auto;
+  margin: 70px 0;
+}
+.contact {
+  padding-top: 0px;
+  h2 {
+    color: #3f3f3f;
+    font-size: 60px;
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    @media only screen and (max-width: 770px) {
+      font-size: 40px;
+    }
+  }
+  .contact-img {
+    img {
+      width: 280px;
+      @media only screen and (max-width: 541px) {
+        display: none;
+      }
+    }
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    @media only screen and (max-width: 770px) {
+      display: block;
+    }
+    .contact-title {
+      max-width: 490px;
+      @media only screen and (max-width: 541px) {
+        max-width: 450px;
+      }
+      .text-right {
+        text-align: right !important;
+        @media only screen and (max-width: 541px) {
+          text-align: left !important;
+        }
+      }
+
+      h3 {
+        font-size: 17px;
+        margin-bottom: 30px;
+        color: #3f3f3f;
+        font-weight: normal;
+        line-height: 1.5;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      .form-group {
+        margin-bottom: 10px;
+      }
+      input {
+        text-align: right;
+        font-size: 1.3rem;
+        border: transparent;
+        border-bottom: 1px solid black;
+        border-radius: 0;
+        outline: none;
+        margin-bottom: 20px;
+        width: 100%;
+        background-color: transparent;
+        @media only screen and (max-width: 541px) {
+          font-size: 1rem;
+          text-align: left !important;
+          width: 80%;
+        }
+      }
+    }
+  }
+  .about-button {
+    padding-top: 20px;
+    max-width: 500px;
+    @media only screen and (max-width: 780px) {
+    }
+    button {
+      background-color: #ffffff;
+      padding: 0.8rem 2rem 0.6rem;
+      font-weight: 500;
+      color: #3f3f3f;
+      font-size: 0.9rem;
+      border-radius: 20px;
+      box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+      transition: all 0.3s;
+      border: 1px transparent;
+      text-align: center;
+      transition: 0.4s ease;
+      margin-bottom: 50px;
+      &:hover {
+        background-color: #f7f8f9;
+        transition: 0.4s ease;
+      }
+      &::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 0.8em;
+        vertical-align: -0.15em;
+        content: "";
+        border-top: 0.5em solid transparent;
+        border-bottom: 0.5em solid transparent;
+        border-left: 0.5em solid;
+      }
+    }
+  }
+}
+
+//  Contacts scss !!!!
+
+.contact {
+  margin-top: 70px;
+}
+
+.contacts {
+  padding: 50px 0;
+  justify-content: center;
+  .Main-title {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+
+  .contacts-title {
+    p {
+      font-size: 15px;
+      font-family: "Gotham" sans-serif;
+      line-height: 1.7;
+      color: #212529;
+      text-align: left;
+      font-weight: normal;
+    }
+  }
+  .contact-img {
+    img {
+      width: 500px;
+      @media only screen and (max-width: 1050px) {
+        max-width: 100%;
+      }
+      @media only screen and (max-width: 540px) {
+        display: block;
+      }
+    }
+  }
+}
+
+// About scss
+
+.text-right {
+  text-align: right !important;
+  @media only screen and (max-width: 580px) {
+    text-align: center !important;
+  }
+}
+.about {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+.About-title {
+  text-align: left !important;
+  color: #454545f0;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Amatic SC", cursive;
+  margin-bottom: 1.5rem;
+  p {
+    max-width: 300px;
+  }
+}
+.about-img {
+  @media only screen and (max-width: 580px) {
+    text-align: center !important;
+  }
+
+  .history-img {
+    max-width: 100%;
+    @media only screen and (max-width: 580px) {
+      display: none;
+    }
+  }
+  h3 {
+    font-size: 23px;
+    padding: 50px 0 30px 0;
+    font-family: none;
+    @media only screen and (max-width: 580px) {
+      text-align: center !important;
+    }
+  }
+  .ceo-safia {
+    font-family: none;
+    font-size: 21px;
+    text-align: right;
+    padding: 25px 0 15px 0;
+    @media only screen and (max-width: 580px) {
+      text-align: center !important;
+    }
+  }
+  i {
+    font-size: 17px;
+    font-family: none;
+    text-align: right;
+    @media only screen and (max-width: 580px) {
+      text-align: center !important;
+    }
+  }
+}
+
+//  Menu scss  //
+.Menu {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.Search-info {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  .search-title {
+    text-align: left;
+  }
+}
+.searcher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  @media only screen and (max-width: 400px) {
+    display: block;
+  }
+  .search {
+    width: 100%;
+    background-color: #fff;
+    @media only screen and (max-width: 400px) {
+      margin-bottom: 15px;
+    }
+    .search-input {
+      width: 100%;
+      padding: 3px 0 3px 15px;
+      border: 1.2px solid rgba(0, 0, 0, 0.125);
+      border-radius: 3px;
+    }
+  }
+  .search-button-div {
+    display: flex;
+    justify-content: center;
+  }
+  .search-button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #d11919;
+    margin-left: 10px;
+    border: 6px;
+    border: 1px solid #ced4da;
+    color: #fff;
+    @media only screen and (max-width: 400px) {
+      margin: auto;
+    }
+  }
+}
+.all-category {
+  max-width: 310px;
+  overflow-y: auto;
+  max-height: 60vh;
+  margin-bottom: 40px;
+  @media only screen and (max-width: 768px) {
+    max-width: 700px;
+  }
+
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+}
+.Main-categories {
+  a {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    &:hover {
+      background: rgba(0, 0, 0, 0.1);
+      color: rgba(0, 0, 0, 1);
+    }
+    @media only screen and (max-width: 880px) {
+      font-size: 1rem;
+      padding: 7px 10px;
+    }
+  }
+  ul {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .main-collapse {
+    transition: 0.3s ease;
+    height: 0;
+    overflow: hidden;
+  }
+  .fish-hg {
+    height: 400px;
+  }
+  .torts-hg {
+    height: 400px;
+  }
+  .add-sub-category {
+    margin-top: 10px;
+    display: block;
+    font-size: 17px;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    opacity: 0.8;
+    li {
+      transition: 0.5s ease;
+      text-align: left;
+      padding-left: 20px;
+      &:hover {
+        background: rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 1);
+        transition: 0.3s ease;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+.Products {
+  margin-bottom: 70px;
+}
+// Restaurants
+.Restaurants {
+  margin-top: 50px;
+  padding: 0;
+  margin-bottom: 0;
+  @media only screen and (max-width: 1200px) {
+    margin-top: 32px;
+  }
+}
+iframe {
+  width: 100%;
+  height: 790px;
+}
+
+// Details page
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100&display=swap");
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @media only screen and (max-width: 992px) {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  img {
+    width: 569px;
+    height: 500px;
+    border-radius: 6px;
+    padding-right: 40px;
+    object-fit: cover;
+    @media only screen and (max-width: 992px) {
+      width: 800px;
+      padding-right: 0;
+    }
+    @media only screen and (max-width: 830px) {
+      width: 700px;
+      padding-right: 0;
+    }
+    @media only screen and (max-width: 730px) {
+      width: 600px;
+      padding-right: 0;
+    }
+    @media only screen and (max-width: 620px) {
+      padding: 0;
+      height: 220px;
+      width: 500px;
+    }
+    @media only screen and (max-width: 520px) {
+      padding: 0;
+      height: 220px;
+      width: 400px;
+    }
+    @media only screen and (max-width: 420px) {
+      padding: 0;
+      height: 220px;
+      width: 300px;
+    }
+  }
+
+  .details-info {
+    h1 {
+      font-size: 40px;
+      font-family: sans-serif;
+      font-weight: 100;
+      color: #102a42;
+      padding-bottom: 40px;
+      @media only screen and (max-width: 992px) {
+        padding-bottom: 10px;
+        font-size: 30px;
+        padding-top: 15px;
+        text-align: center;
+      }
+    }
+    h3 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 24px;
+      color: #bcccdc;
+      @media only screen and (max-width: 992px) {
+        text-align: center;
+      }
+      @media only screen and (max-width: 600px) {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+    .none-price {
+      display: none;
+      @media only screen and (max-width: 992px) {
+        display: flex;
+        padding-left: 40px;
+        padding-bottom: 10px;
+      }
+      @media only screen and (max-width: 420px) {
+        font-size: 18px;
+        padding-left: 20px;
+      }
+    }
+    h4 {
+      padding-top: 20px;
+      padding-bottom: 25px;
+      color: #324d67;
+      font-size: 22px;
+      font-family: sans-serif;
+      font-weight: 500;
+      @media only screen and (max-width: 992px) {
+        display: none;
+      }
+    }
+    p {
+      color: #617d98;
+      font-family: sans-serif;
+      font-size: 16px;
+      max-width: 400px;
+      padding-bottom: 10px;
+      @media only screen and (max-width: 992px) {
+        padding: 20px;
+        font-size: 18px;
+        max-width: 600px;
+      }
+      @media only screen and (max-width: 420px) {
+        font-size: 16px;
+      }
+    }
+    .add-button {
+      @media only screen and (max-width: 600px) {
+        text-align: center;
+      }
+      @media only screen and (max-width: 992px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .button {
+      width: 176px;
+      height: 40px;
+      color: #fff;
+      background-color: #dc3545;
+      text-align: center;
+      font-size: 17px;
+      border: 0;
+      border-radius: 4px;
+    }
+  }
+}
+// news scss
